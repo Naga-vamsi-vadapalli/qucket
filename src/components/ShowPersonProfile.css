@@ -1,0 +1,24 @@
+.profile-container {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .profile-display {
+    margin-top: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  body.light-theme {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  body.dark-theme {
+    --background-color: #333333;
+    --text-color: #ffffff;
+  }
+  
+  
